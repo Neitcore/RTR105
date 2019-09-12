@@ -9,17 +9,17 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **Tab**           -     papildina komandu.\
 **man (command)** -     aprakst komandaj.\
 **echo $0**       -     darbojoss interpritators.\
-**uname**         -     system information.\
+**uname**         -     system information.
                         **-a** - all system information.\
 **whoami**        -     attelo kurss user darbojas sistemaa.\
 **pwd**           -     attelo tiekosso dir.\
-**ls**            -     rada kas ir pieiejams dir.\
-                        **-l** - visa info par objektiem dir.\
-                                **d** - direktorija, **rwx** - read, write, execute.\
-                        **-a** - parada visus objektus.\
+**ls**            -     rada kas ir pieiejams dir.
+                        **-l** - visa info par objektiem dir.
+                                **d** - direktorija, **rwx** - read, write, execute.
+                        **-a** - parada visus objektus.
                         **-al** - parada visus objektus ditalizetu info.\
-**cd**            -     change dir.\
-                        **.** - aktiva dir.\
+**cd**            -     change dir.
+                        **.** - aktiva dir.
                         **~** - majas apgabals.\
 **mkdir**         -     make dir.\
 **rm**            -     remove dir.\
