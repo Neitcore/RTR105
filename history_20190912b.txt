@@ -1,0 +1,88 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  history
+    5  ls
+    6  touch aaa.txt
+    7  cat aaa.txt
+    8  echo Pirmais teksts 
+    9  echo Pirmais teksts > aaa.txt
+   10  cat aaa.txt
+   11  echo Otrais teksts > aaa.txt
+   12  cat aaa.txt
+   13  echo Pirmais teksts > aaa.txt
+   14  echo Otrais teksts >> aaa.txt
+   15  cat aaa.txt
+   16  nano aaa.txt
+   17  cat aaa.txt
+   18  cp aaa.txt bbb.txt
+   19  ls -l
+   20  cd /
+   21  mv ~/aaa.txt ~/Documents/ccc.txt
+   22  cd
+   23  ls -l
+   24  ls -l Documents/
+   25  pwd
+   26  mv ./Documents/ccc.txt ddd.txt
+   27  ls -l
+   28  mkdir ManaMape
+   29  mv *.txt ManaMape/
+   30  ls -l
+   31  ls -l ManaMape/
+   32  cd ManaMape/
+   33  rm bbb.txt
+   34  ls -l 
+   35  cd ..
+   36  rmdir ManaMape/
+   37  ma rmdir
+   38  man rmdir
+   39  rmdir -fr  ManaMape/
+   40  rm -fr  ManaMape/
+   41  ls -l
+   42  nano MansPirmaisScripts.sh
+   43  ls -l
+   44  MansPirmaisScripts.sh
+   45  echo $PATH
+   46  ls /bin | grep ls
+   47  ls -l /bin | grep ls
+   48  ls -l /bin/ls
+   49  cat bin/ls
+   50  cd ..
+   51  cd..
+   52  cd /
+   53  cat bin/ls
+   54  cd
+   55  ./MansPirmaisScripts,sh
+   56  ~/MansPirmaisScripts,sh
+   57  ls -l
+   58  echo $PATH
+   59  $PATH = $PATH:~
+   60  $PATH = $PATH:~/
+   61  PATH = $PATH:~/
+   62  PATH = $PATH:home/user
+   63  $PATH = $PATH:home/user
+   64  ls
+   65  MansPirmaisScripts.sh
+   66  $PATH = $PATH:home/user
+   67  $PATH = $PATH:home/user/
+   68  $PATH = $PATH:/home/user/
+   69  chmod 740 MansPirmaisScripts.sh 
+   70  ls -l
+   71* 
+   72  $PATH = PATH:/home/user/
+   73  $PATH = $PATH:/home/user/
+   74  PATH=$PATH:~/
+   75  MansPirmaisScripts.sh 
+   76  echo $PATH
+   77  ls -l
+   78  ls -l ManaMapeAuto/
+   79  nano MansPirmaisScripts.sh 
+   80  MansPirmaisScripts.sh 
+   81  ls -l
+   82  cat ManaMapeAuto/fff.txt 
+   83  cat ManaMapeAuto/
+   84  cat ManaMapeAuto
+   85  cat ManaMapeAuto/
+   86  cat MansPirmaisScripts.sh 
+   87  history
+   88  history >> history_20190912b.txt
