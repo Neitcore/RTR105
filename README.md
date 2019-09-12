@@ -24,4 +24,4 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **mkdir**         -     make dir.\
 **rm**            -     remove dir.\
 **history**       -     komandu vesture.\
-**command > fail.extention**  - ievietot kaut ko failaa.\
+**command > fail.extention**  - ievietot kaut ko failaa.
