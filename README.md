@@ -33,3 +33,5 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **mv (no) (uz (var samainit nosaukumu))**         move.\
 **\*.ext** -            visie faili ar .ext.\             
 **chmod** -             samainit atlauju. 
+**PATH=$PATH:~/**       pievinot User/Home PATH
+
