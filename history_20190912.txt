@@ -1,0 +1,58 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  echo $0
+    5  uname
+    6  uname -a
+    7  whoami
+    8  pwd
+    9  ls
+   10  ls -l
+   11  ls -a
+   12  ls -al
+   13  pwd
+   14  cd .
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  ls -la
+   19  cd sc
+   20  cd ..
+   21  pwd
+   22  cd..
+   23  cd ..
+   24  pwd
+   25  ls -a
+   26  cd ..
+   27  cd ~
+   28  cd /
+   29  cd home
+   30  cd user/
+   31  cd /
+   32  cd home/user/
+   33  cd -/
+   34  cd ..
+   35  cd -/
+   36  cd home/user/
+   37  ls
+   38  cd Documents/
+   39  cd
+   40  sh
+   41  pwd
+   42  cd /
+   43  cd ~
+   44  cd /
+   45  mkdir ManaMape
+   46  cd ~
+   47  mkdir ManaMape
+   48  ls
+   49  ls -l
+   50  cd ManaMape/
+   51  cd
+   52  rm ManaMape/
+   53  ls
+   54  cd ManaMape/
+   55  rm ManaMape/
+   56  cd
+   57  history
+   58  history > history_20190912.txt
