@@ -24,4 +24,12 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **mkdir**         -     make dir.\
 **rm**            -     remove dir.\
 **history**       -     komandu vesture.\
-**command > fail.extention**  - ievietot kaut ko failaa.
+**command > fail.extention**  - ievietot kaut ko failaa.\
+**touch "name.ext"** -  izveido jauno failu.\           
+**cat "name.ext"** -    aplukot kas ir faila.\           
+**echo "text" >> name.ext** - ievieto faila tekstu.\                      
+**nano "name.ext"** -   ieiet faila.\           
+**cp "name.ext" "name2.ext"** -  copy to file.\             
+**mv (no) (uz (var samainit nosaukumu))**         move.\
+**\*.ext** -            visie faili ar .ext.\             
+**chmod** -             samainit atlauju. 
