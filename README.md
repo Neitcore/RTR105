@@ -2,7 +2,7 @@
 Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 
 
-**Ctrl + Alt + T**  -   #Terminals.\
+**Ctrl + Alt + T**  -   Terminals.\
 **Ctrl + Shift + T** -  Terminala tabs.\
 **Ctrl + L**        -   Notirit terminalu.\
 :arrow_down: **/** :arrow_up: - Komandu vesture surf.\
