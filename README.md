@@ -34,5 +34,10 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **mv (no) (uz (var samainit nosaukumu))**         move. \
 **\*.ext** -            visie faili ar .ext. \             
 **chmod** -             samainit atlauju. \
-**PATH=$PATH:~/**       pievinot User/Home PATH
-
+**PATH=$PATH:~/**       pievinot User/Home PATH. \
+**git clone "rep"**	klonet githaba repozitariju datora. \
+**gcc prog.c -o prog1** kompilet programu.\
+**#include <module>** 	pievieno moduli C valoda.\
+**main(){} **		programas galvena funkcija.\
+**void func(){}**	proceduras izveidoshana.\
+**\n**			jauna rinda.\

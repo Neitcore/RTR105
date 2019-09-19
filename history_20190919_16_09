@@ -1,0 +1,74 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  &firefox
+    4  & firefox
+    5  &firefox 
+    6  pwd
+    7  ls
+    8  git clone https://github.com/Neitcore/RTR105
+    9  ls
+   10  cd RTR105/
+   11  ls -l
+   12  ls -la
+   13  cat README.md 
+   14  nano git-upload
+   15  ls -l
+   16  chmod 700 git-upload 
+   17  ls -l
+   18  whereis git-upload
+   19  echo $PATH 
+   20  ./git-upload 
+   21  ./git-upload 20190919_15_00
+   22  git pull
+   23  ./git-upload 20190919_15_00
+   24  cd ..
+   25  ls -l
+   26  rm -rf RTR105/
+   27  ls -l
+   28  git clone https://github.com/Neitcore/RTR105
+   29  ls -l
+   30  cd RTR105/
+   31  ls -l
+   32  nano elementary.c
+   33  mkdir darbi
+   34  mv elementary.c darbi/
+   35  cd darbi/
+   36  cat elementary.c 
+   37  gcc elementary.c 
+   38  nano elementary.c 
+   39  gcc elementary.c 
+   40  ls -l
+   41  ./a.out 
+   42  gcc elementary.c -o prg1
+   43  ls -l
+   44  nano elementary.c 
+   45  gcc elementary.c -o prg2
+   46  ls -l
+   47  nano elementary.c 
+   48  gcc elementary.c -o prg3
+   49  ls -l
+   50  cat prg1
+   51  nano elementary.c 
+   52  copy elementary.c hello.c
+   53  cp elementary.c hello.c
+   54  ls -l
+   55  ./hello.c
+   56  nano hello.c 
+   57  gcc hello.c -o prg3
+   58  gcc hello.c -o prg4
+   59  gcc elementary.c -o prg3
+   60  ./prg4
+   61  ls -l
+   62  nano hello.c 
+   63  gcc hello.c -o prg4
+   64  ./prg4
+   65  nano hello.c 
+   66  gcc hello.c -o prg4
+   67  ./prg4
+   68  ls -l
+   69  rm prg*
+   70  ls -l
+   71  rm a.out 
+   72  ls -l
+   73  cd ..
+   74  history > history_20190919_16_09
