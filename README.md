@@ -5,6 +5,7 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **Ctrl + Alt + T**  -   Terminals.\
 **Ctrl + Shift + T** -  Terminala tabs.\
 **Ctrl + L**        -   Notirit terminalu.\
+**Shift + Ins**     - Ctrl + V.\
 :arrow_down: **/** :arrow_up: - Komandu vesture surf.\
 **Tab**           -     papildina komandu.\
 **man (command)** -     aprakst komandaj.\
