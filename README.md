@@ -33,6 +33,6 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **cp "name.ext" "name2.ext"** -  copy to file.\             
 **mv (no) (uz (var samainit nosaukumu))**         move.\
 **\*.ext** -            visie faili ar .ext.\             
-**chmod** -             samainit atlauju. 
+**chmod** -             samainit atlauju. \
 **PATH=$PATH:~/**       pievinot User/Home PATH
 
