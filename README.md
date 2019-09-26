@@ -41,4 +41,8 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **main(){}**		programas galvena funkcija.\
 **void func(){}**	proceduras izveidoshana.\
 **\n**			jauna rinda.\
-    ASCII 128 sym
+ASCII 128 sym\
+LSB - List Significant Bit\
+MSB - Most significat bit (Skaitlisku vertibu nemaina)\ 
+OCT - Pa tris no BIN no <- sagrupet\
+                     
