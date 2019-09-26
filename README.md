@@ -38,6 +38,7 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **git clone "rep"**	klonet githaba repozitariju datora. \
 **gcc prog.c -o prog1** kompilet programu.\
 **#include <module>** 	pievieno moduli C valoda.\
+  ASCII 128 sym
 **main(){}**		programas galvena funkcija.\
 **void func(){}**	proceduras izveidoshana.\
 **\n**			jauna rinda.\
