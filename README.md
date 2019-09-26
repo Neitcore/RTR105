@@ -43,6 +43,6 @@ Studiju kursa Datormaciba (pamatkurss) elektroniska klade
 **\n**			jauna rinda.\
 ASCII 128 sym\
 LSB - List Significant Bit\
-MSB - Most significat bit (Skaitlisku vertibu nemaina) \ 
+MSB - Most significat bit (Skaitlisku vertibu nemaina)\ 
 OCT - Pa tris no BIN no <- sagrupet\
                      
