@@ -1,0 +1,81 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Neitcore/RTR105
+    4  cd RTR105/
+    5  cd darbi/
+    6  nano user_function_no_arg_no_return.c
+    7  gcc user_function_no_arg_no_return.c 
+    8  ./a.out 
+    9  nano user_function_no_arg_no_return.c
+   10  gcc user_function_no_arg_no_return.c 
+   11  ./a.out 
+   12  nano user_function_no_arg_no_return.c
+   13  gcc user_function_no_arg_no_return.c 
+   14  ./a.out 
+   15  nano user_function_no_arg_no_return.c
+   16  gcc user_function_no_arg_no_return.c 
+   17  nano user_function_no_arg_no_return.c
+   18  gcc user_function_no_arg_no_return.c 
+   19  ./a.out 
+   20  nano user_function_no_arg_no_return.c
+   21  cp user_function_no_arg_no_return.c user_function_arg_no_return.c 
+   22  nano user_function_arg_no_return.c 
+   23  gcc user_function_arg_no_return.c 
+   24  ./a.out 
+   25  gcc user_function_arg_no_return.c 
+   26  nano user_function_arg_no_return.c 
+   27  gcc user_function_arg_no_return.c 
+   28  ./a.out 
+   29  gcc user_function_arg_no_return.c 
+   30  nano user_function_arg_no_return.c 
+   31  gcc user_function_arg_no_return.c 
+   32  ./a.out 
+   33  nano user_function_arg_no_return.c 
+   34  gcc user_function_arg_no_return.c 
+   35  nano user_function_arg_no_return.c 
+   36  gcc user_function_arg_no_return.c 
+   37  nano user_function_arg_no_return.c 
+   38  gcc user_function_arg_no_return.c 
+   39  ./a.out 
+   40  nano user_function_arg_no_return.c 
+   41  gcc user_function_arg_no_return.c 
+   42  ./a.out 
+   43  nano user_function_arg_no_return.c 
+   44  gcc user_function_arg_no_return.c 
+   45  ./a.out 
+   46  nano user_function_arg_no_return.c 
+   47  gcc user_function_arg_no_return.c 
+   48  ./a.out 
+   49  nano user_function_arg_no_return.c 
+   50  gcc user_function_arg_no_return.c 
+   51  nano user_function_arg_no_return.c 
+   52  gcc user_function_arg_no_return.c 
+   53  ./a.out 
+   54  nano user_function_arg_no_return.c 
+   55  cp user_function_no_arg_no_return.c user_function_no_arg_return.c
+   56  nano user_function_no_arg_return.c 
+   57  gcc user_function_no_arg_return.c 
+   58  nano user_function_no_arg_return.c 
+   59  gcc user_function_no_arg_return.c 
+   60  ./a.out 
+   61  nano user_function_no_arg_return.c 
+   62  gcc user_function_no_arg_return.c 
+   63  ./a.out 
+   64  nano user_function_no_arg_return.c 
+   65  cp user_function_no_arg_return.c user_function_arg_return.c 
+   66  nano user_function_arg_return.c 
+   67  cp user_function_arg_no_return.c user_function_arg_return.c 
+   68  nano user_function_arg_return.c 
+   69  gcc user_function_arg_return.c 
+   70  nano user_function_arg_return.c 
+   71  gcc user_function_arg_return.c 
+   72  ./a.out 
+   73  nano user_function_arg_return.c 
+   74  ls -l
+   75  nano user_function_self.c
+   76  cp user_function_arg_return.c user_function_self.c
+   77  nano user_function_self.c 
+   78  rm *.out
+   79  ls -l
+   80  cd ..
+   81  history > history17102019.txt 
