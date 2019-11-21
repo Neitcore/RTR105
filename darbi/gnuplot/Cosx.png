@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Gnuplot Canvas Graph</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+<script src="/usr/share/gnuplot/gnuplot/5.2/js/canvastext.js"></script>
+<script src="/usr/share/gnuplot/gnuplot/5.2/js/gnuplot_common.js"></script>
+<script src="/usr/share/gnuplot/gnuplot/5.2/js/gnuplot_dashedlines.js"></script>
+<script type="text/javascript">gnuplot.init = function() {};</script>
+<script type="text/javascript">
+var canvas, ctx;
+gnuplot.grid_lines = true;
+gnuplot.zoomed = false;
+gnuplot.active_plot_name = "gnuplot_canvas";
+
+function gnuplot_canvas() {
+canvas = document.getElementById("gnuplot_canvas");
+ctx = canvas.getContext("2d");
+// Gnuplot version 5.2.2
+// short forms of commands provided by gnuplot_common.js
+function DT  (dt)  {gnuplot.dashtype(dt);};
+function DS  (x,y) {gnuplot.dashstart(x,y);};
+function DL  (x,y) {gnuplot.dashstep(x,y);};
+function M   (x,y) {if (gnuplot.pattern.length > 0) DS(x,y); else gnuplot.M(x,y);};
+function L   (x,y) {if (gnuplot.pattern.length > 0) DL(x,y); else gnuplot.L(x,y);};
+function Dot (x,y) {gnuplot.Dot(x/10.,y/10.);};
+function Pt  (N,x,y,w) {gnuplot.Pt(N,x/10.,y/10.,w/10.);};
+function R   (x,y,w,h) {gnuplot.R(x,y,w,h);};
+function T   (x,y,fontsize,justify,string) {gnuplot.T(x,y,fontsize,justify,string);};
+function TR  (x,y,angle,fontsize,justify,string) {gnuplot.TR(x,y,angle,fontsize,justify,string);};
+function bp  (x,y) {gnuplot.bp(x,y);};
+function cfp () {gnuplot.cfp();};
+function cfsp() {gnuplot.cfsp();};
+
+gnuplot.hypertext_list = [];
+gnuplot.on_hypertext = -1;
+function Hypertext(x,y,w,text) {
+    newtext = {x:x, y:y, w:w, text:text};
+    gnuplot.hypertext_list.push(newtext);
+}
+gnuplot.dashlength = 400;
+ctx.lineCap = "round"; ctx.lineJoin = "round";
+CanvasTextFunctions.enable(ctx);
+ctx.strokeStyle = "rgb(215,215,215)";
+ctx.lineWidth = 1;
+
+ctx.lineWidth = 1;
+ctx.strokeStyle = "rgb(000,000,000)";
+ctx.beginPath();
+M(520,4800);
+L(620,4800);
+M(4759,4800);
+L(4659,4800);
+ctx.stroke();
+ctx.closePath();
+ctx.fillStyle = "rgb(000,000,000)";
+T(440,4850,10.0,"Right","-1");
+ctx.beginPath();
+M(520,4350);
+L(620,4350);
+M(4759,4350);
+L(4659,4350);
+ctx.stroke();
+ctx.closePath();
+T(440,4400,10.0,"Right","-0.8");
+ctx.beginPath();
+M(520,3900);
+L(620,3900);
+M(4759,3900);
+L(4659,3900);
+ctx.stroke();
+ctx.closePath();
+T(440,3950,10.0,"Right","-0.6");
+ctx.beginPath();
+M(520,3450);
+L(620,3450);
+M(4759,3450);
+L(4659,3450);
+ctx.stroke();
+ctx.closePath();
+T(440,3500,10.0,"Right","-0.4");
+ctx.beginPath();
+M(520,3000);
+L(620,3000);
+M(4759,3000);
+L(4659,3000);
+ctx.stroke();
+ctx.closePath();
+T(440,3050,10.0,"Right","-0.2");
+ctx.beginPath();
+M(520,2550);
+L(620,2550);
+M(4759,2550);
+L(4659,2550);
+ctx.stroke();
+ctx.closePath();
+T(440,2600,10.0,"Right"," 0");
+ctx.beginPath();
+M(520,2101);
+L(620,2101);
+M(4759,2101);
+L(4659,2101);
+ctx.stroke();
+ctx.closePath();
+T(440,2151,10.0,"Right"," 0.2");
+ctx.beginPath();
+M(520,1651);
+L(620,1651);
+M(4759,1651);
+L(4659,1651);
+ctx.stroke();
+ctx.closePath();
+T(440,1701,10.0,"Right"," 0.4");
+ctx.beginPath();
+M(520,1201);
+L(620,1201);
+M(4759,1201);
+L(4659,1201);
+ctx.stroke();
+ctx.closePath();
+T(440,1251,10.0,"Right"," 0.6");
+ctx.beginPath();
+M(520,751);
+L(620,751);
+M(4759,751);
+L(4659,751);
+ctx.stroke();
+ctx.closePath();
+T(440,801,10.0,"Right"," 0.8");
+ctx.beginPath();
+M(520,301);
+L(620,301);
+M(4759,301);
+L(4659,301);
+ctx.stroke();
+ctx.closePath();
+T(440,351,10.0,"Right"," 1");
+ctx.beginPath();
+M(520,4800);
+L(520,4700);
+M(520,301);
+L(520,401);
+ctx.stroke();
+ctx.closePath();
+T(520,4950,10.0,"Center","-10");
+ctx.beginPath();
+M(1580,4800);
+L(1580,4700);
+M(1580,301);
+L(1580,401);
+ctx.stroke();
+ctx.closePath();
+T(1580,4950,10.0,"Center","-5");
+ctx.beginPath();
+M(2640,4800);
+L(2640,4700);
+M(2640,301);
+L(2640,401);
+ctx.stroke();
+ctx.closePath();
+T(2640,4950,10.0,"Center"," 0");
+ctx.beginPath();
+M(3699,4800);
+L(3699,4700);
+M(3699,301);
+L(3699,401);
+ctx.stroke();
+ctx.closePath();
+T(3699,4950,10.0,"Center"," 5");
+ctx.beginPath();
+M(4759,4800);
+L(4759,4700);
+M(4759,301);
+L(4759,401);
+ctx.stroke();
+ctx.closePath();
+T(4759,4950,10.0,"Center"," 10");
+ctx.beginPath();
+M(520,301);
+L(520,4800);
+L(4759,4800);
+L(4759,301);
+L(520,301);
+ctx.closePath();
+ctx.stroke();
+T(2639,201,10.0,"Center","Cos(x)");
+if (typeof(gnuplot.hide_gp_plot_1) == "undefined"|| !gnuplot.hide_gp_plot_1) {
+ctx.strokeStyle = "rgb(148,000,211)";
+ctx.strokeStyle = "rgb(000,000,000)";
+T(4099,514,10.0,"Right","cos(x)");
+ctx.strokeStyle = "rgb(148,000,211)";
+ctx.beginPath();
+M(4179,464);
+L(4599,464);
+M(520,4438);
+L(563,4645);
+L(606,4767);
+L(648,4799);
+L(691,4739);
+L(734,4591);
+L(777,4359);
+L(820,4054);
+L(863,3687);
+L(905,3275);
+L(948,2833);
+L(991,2379);
+L(1034,1933);
+L(1077,1511);
+L(1119,1132);
+L(1162,811);
+L(1205,560);
+L(1248,390);
+L(1291,308);
+L(1334,318);
+L(1376,418);
+L(1419,605);
+L(1462,871);
+L(1505,1205);
+L(1548,1594);
+L(1590,2022);
+L(1633,2472);
+L(1676,2924);
+L(1719,3362);
+L(1762,3766);
+L(1805,4121);
+L(1847,4412);
+L(1890,4628);
+L(1933,4759);
+L(1976,4800);
+L(2019,4749);
+L(2061,4610);
+L(2104,4386);
+L(2147,4088);
+L(2190,3727);
+L(2233,3318);
+L(2276,2879);
+L(2318,2425);
+L(2361,1977);
+L(2404,1552);
+L(2447,1168);
+L(2490,840);
+L(2532,582);
+L(2575,403);
+L(2618,312);
+L(2661,312);
+L(2704,403);
+L(2747,582);
+L(2789,840);
+L(2832,1168);
+L(2875,1552);
+L(2918,1977);
+L(2961,2425);
+L(3003,2879);
+L(3046,3318);
+L(3089,3727);
+L(3132,4088);
+L(3175,4386);
+L(3218,4610);
+L(3260,4749);
+L(3303,4800);
+L(3346,4759);
+L(3389,4628);
+L(3432,4412);
+L(3474,4121);
+L(3517,3766);
+L(3560,3362);
+L(3603,2924);
+L(3646,2472);
+L(3689,2022);
+L(3731,1594);
+L(3774,1205);
+L(3817,871);
+L(3860,605);
+L(3903,418);
+L(3945,318);
+L(3988,308);
+L(4031,390);
+L(4074,560);
+L(4117,811);
+L(4160,1132);
+L(4202,1511);
+L(4245,1933);
+L(4288,2379);
+L(4331,2833);
+L(4374,3275);
+L(4416,3687);
+L(4459,4054);
+L(4502,4359);
+L(4545,4591);
+L(4588,4739);
+L(4631,4799);
+L(4673,4767);
+L(4716,4645);
+L(4759,4438);
+ctx.stroke();
+ctx.closePath();
+} // End gp_plot_1 
+ctx.lineWidth = 2;
+ctx.strokeStyle = "rgb(000,000,000)";
+DT(gnuplot.solid);
+ctx.lineWidth = 1;
+ctx.beginPath();
+M(520,301);
+L(520,4800);
+L(4759,4800);
+L(4759,301);
+L(520,301);
+ctx.closePath();
+ctx.stroke();
+
+// plot boundaries and axis scaling information for mousing 
+gnuplot.plot_term_xmax = 500;
+gnuplot.plot_term_ymax = 500;
+gnuplot.plot_xmin = 52.0;
+gnuplot.plot_xmax = 475.9;
+gnuplot.plot_ybot = 480.0;
+gnuplot.plot_ytop = 30.1;
+gnuplot.plot_width = 423.9;
+gnuplot.plot_height = 449.9;
+gnuplot.plot_axis_xmin = -10;
+gnuplot.plot_axis_xmax = 10;
+gnuplot.plot_axis_ymin = -1;
+gnuplot.plot_axis_ymax = 1;
+gnuplot.plot_axis_x2min = "none"
+gnuplot.plot_axis_y2min = "none"
+gnuplot.plot_logaxis_x = 0;
+gnuplot.plot_logaxis_y = 0;
+gnuplot.plot_timeaxis_x = "";
+gnuplot.plot_timeaxis_y = "";
+gnuplot.plot_axis_width = gnuplot.plot_axis_xmax - gnuplot.plot_axis_xmin;
+gnuplot.plot_axis_height = gnuplot.plot_axis_ymax - gnuplot.plot_axis_ymin;
+}
+</script>
+<link type="text/css" href="/usr/share/gnuplot/gnuplot/5.2/js/gnuplot_mouse.css" rel="stylesheet">
+</head>
+<body onload="gnuplot_canvas(); gnuplot.init();" oncontextmenu="return false;">
+
+<div class="gnuplot">
+<canvas id="Tile" width="32" height="32" hidden></canvas>
+<table class="plot">
+<tr><td>
+    <canvas id="gnuplot_canvas" width="500" height="500" tabindex="0">
+	Sorry, your browser seems not to support the HTML 5 canvas element
+    </canvas>
+</td></tr>
+</table>
+</div>
+
+</body>
+</html>
