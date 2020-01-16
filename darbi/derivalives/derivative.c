@@ -1,23 +1,63 @@
 #include <stdio.h>
 #include <math.h>
 
-void main(){
-//sin(x)' = cos(x)
-FILE*f;
-f = fopen("derivative.dat","w");
-float a,b,x,delta_x;
+float function(float x);
+float derivate(float x,float delta);
+float derivate_f(float x,float delta);
 
-printf("\nEnter a: ");
-scanf("%f",&a);
-printf("\nEnter b: ");
-scanf("%f",&b);
-printf("\nValue precision (dx): ");
-scanf("%f",&delta_x);
-fprintf(f,"\tx\t\tsin(x)\t\tsin\'(x)\n");
-x = a;
-while(x<b){
-	fprintf(f,"%10f.2f\t%10.2f\t%10.2f\n",x,sin(x),(sin(x+delta_x)-sin(x))/delta_x);
-	x+= delta_x;
+void main(){
+	//sin(x)' = cos(x)
+	FILE*f;
+	f = fopen("derivative.dat","w");
+	float a,b,x,delta_x;
+
+	printf("\nEnter a: ");
+	scanf("%f",&a);
+	printf("\nEnter b: ");
+	scanf("%f",&b);
+	printf("\nValue precision (dx): ");
+	scanf("%f",&delta_x);
+
+	fprintf(f,"\tx\t\tf(x)\t   f\'(x) fd");
+	fprintf(f,"\t\tf\'(x) af");
+	fprintf(f,"\t\tf\'\'(x) fd");
+	fprintf(f,"\t\tf\'\'(x) ad");
+	fprintf(f,"\n");
+	x = a;
+	while(x<b){
+
+
+		fprintf(f,"%10.2f\t%10.2f\t",x,function(x));
+		fprintf(f,"%10.2f\t",derivate_f(x,delta_x));
+		fprintf(f,"%10.2f\t",derivate(x,delta_x));
+		fprintf(f,"%10.2f\t",derivate_f(derivate_f(x,delta_x),delta_x));
+		fprintf(f,"%10.2f",derivate(derivate(x,delta_x),delta_x));
+		fprintf(f,"\n");
+		x+= delta_x;
+	}
+	fclose(f);
 }
-fclose(f);
+
+float function(float x){
+	float y = sin(x);
+	return y;
+
+
+}
+
+
+
+float derivate_f(float x,float delta){
+	return (function(x+delta)-function(x))/delta;
+	
+}
+
+
+float derivate(float x0,float delta){
+	float x1 = x0-delta;
+	float x2 = x0+delta;
+	float y1 = function(x1);
+	float y2 = function(x2);
+	return (y2 - y1)/(x2 - x1);
+
 }
