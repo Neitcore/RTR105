@@ -1,3 +1,4 @@
+set terminal cairolatex
 set grid
 plot [0:2*pi] sin(x)
 replot [0:2*pi] cos(x)
