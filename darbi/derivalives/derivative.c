@@ -8,11 +8,11 @@ f = fopen("derivative.dat","w");
 float a,b,x,delta_x;
 
 printf("\nEnter a: ");
-scanf("%lf",a);
+scanf("%f",&a);
 printf("\nEnter b: ");
-scanf("%lf",b);
+scanf("%f",&b);
 printf("\nValue precision (dx): ");
-scanf("%lf",delta_x);
+scanf("%f",&delta_x);
 fprintf(f,"\tx\t\tsin(x)\t\tsin\'(x)\n");
 x = a;
 while(x<b){
@@ -20,5 +20,4 @@ while(x<b){
 	x+= delta_x;
 }
 fclose(f);
-system("gnuplot < derivative.dat");
 }
