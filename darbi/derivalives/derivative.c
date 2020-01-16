@@ -39,7 +39,7 @@ void main(){
 }
 
 float function(float x){
-	float y = sin(x);
+	float y = x*x + 2*x + 1;
 	return y;
 
 

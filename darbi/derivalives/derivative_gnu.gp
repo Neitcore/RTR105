@@ -7,11 +7,12 @@ set grid
 
 
 
-plot [0:2*pi] sin(x),cos(x),\
-	"derivative.dat" every::1 using 1:2 with lines title "sin(x) file",\
-	"derivative.dat" every::1 using 1:3 with lines title "sin'(x) fd ",\
-	"derivative.dat" every::1 using 1:4 with lines title "sin'(x) af ",\
-	"derivative.dat" every::1 using 1:5 with lines title "sin''(x) df ",\
-	"derivative.dat" every::1 using 1:6 with lines title "sin''(x) af "
+plot [-10:10] x*x + 2*x +1 title "f(x) gp",\
+	2*x + 2 title "f'(x) gp",\
+	"derivative.dat" every::1 using 1:2 with lines title "f(x) file",\
+	"derivative.dat" every::1 using 1:3 with lines title "f'(x) fd ",\
+	"derivative.dat" every::1 using 1:4 with lines title "f'(x) af ",\
+	"derivative.dat" every::1 using 1:5 with lines title "f''(x) df ",\
+	"derivative.dat" every::1 using 1:6 with lines title "f''(x) af "
 
 
