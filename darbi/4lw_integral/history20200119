@@ -1,0 +1,77 @@
+    1  ls -l
+    2  nano test.c
+    3  cat test.c
+    4  gcc test.c -o test.out
+    5  les -l
+    6  ls -l
+    7  nano test.c
+    8  cat test.c
+    9  gcc test.c -o test.out
+   10  ls -l
+   11  ./test.out 
+   12  nano test.c
+   13  cat test.
+   14  ls -l
+   15  cd RTR105/
+   16  cd darbi/
+   17  mkdir 4lw_integral
+   18  cd 4lw_integral/
+   19  nano lab_work_4_integral.c
+   20  gcc lab_work_4_integral.c
+   21  nano lab_work_4_integral.c
+   22  nano lab_work_4_integral.c 
+   23  gcc lab_work_4_integral.c
+   24  nano lab_work_4_integral.c 
+   25  gcc lab_work_4_integral.c
+   26  ./a.out 
+   27  nano lab_work_4_integral.c 
+   28  gcc lab_work_4_integral.c -lm
+   29  ./a.out 
+   30  nano lab_work_4_integral.c 
+   31  gcc lab_work_4_integral.c -lm
+   32  ./a.out 
+   33  nano lab_work_4_integral.c 
+   34  gcc lab_work_4_integral.c -lm
+   35  ./a.out 
+   36  nano lab_work_4_integral.c 
+   37  gcc lab_work_4_integral.c -lm
+   38  nano lab_work_4_integral.c 
+   39  gcc lab_work_4_integral.c -lm
+   40  nano lab_work_4_integral.c 
+   41  gcc lab_work_4_integral.c -lm
+   42  ./a.out 
+   43  nano lab_work_4_integral.c 
+   44  gcc lab_work_4_integral.c -lm
+   45  nano lab_work_4_integral.c 
+   46  gcc lab_work_4_integral.c -lm
+   47  ./a.out 
+   48  nano lab_work_4_integral.c 
+   49  gcc lab_work_4_integral.c -lm
+   50  nano lab_work_4_integral.c 
+   51  gcc lab_work_4_integral.c -lm
+   52  nano lab_work_4_integral.c 
+   53  gcc lab_work_4_integral.c -lm
+   54  ./a.out 
+   55  nano lab_work_4_integral.c 
+   56  gcc lab_work_4_integral.c -lm
+   57  nano lab_work_4_integral.c 
+   58  gcc lab_work_4_integral.c -lm
+   59  nano lab_work_4_integral.c 
+   60  gcc lab_work_4_integral.c -lm
+   61  nano lab_work_4_integral.c 
+   62  gcc lab_work_4_integral.c -lm
+   63  nano lab_work_4_integral.c 
+   64  gcc lab_work_4_integral.c -lm
+   65  ./a.out 
+   66  nano lab_work_4_integral.c 
+   67  gcc lab_work_4_integral.c -lm
+   68  ./a.out 
+   69  cp lab_work_4_integral.c readme.md
+   70  cat readme.md 
+   71  cd ..
+   72  ./git-upload 2020119_20_53
+   73  cd darbi/
+   74  cd 4lw_integral/
+   75  rm a.out 
+   76  ls -l
+   77  history > history20200119
